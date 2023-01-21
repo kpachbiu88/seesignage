@@ -1,0 +1,24 @@
+
+type Playlist {
+    id: ID
+    name: String 
+    media: [String]
+}
+
+#type Media {
+#    id: ID
+#    url: String
+#}
+
+#input MediaInput {
+#    id: ID
+#    url: String
+#}
+
+extend type Query {
+    playlist: Playlist
+}
+
+extend type Mutation {
+    updatePlaylist(id: ID!, name: String! media: [String]!): Playlist
+}

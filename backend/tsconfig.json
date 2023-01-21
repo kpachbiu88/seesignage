@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "outDir": "dist",
+    "rootDirs": ["src"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    "node_modules",
+  ],
+  "ts-node": {
+    "files": true
+  }
+}

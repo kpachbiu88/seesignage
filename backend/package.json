@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "scripts": {
+    "start": "nodemon server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "codegen": "graphql-codegen --config codegen.yml --watch \"src/graphql/*.ts\"",
+    "build": "rm -rf ./dist && tsc --build"
+  },
+  "author": "Konstantin Nikolaev <sector99@bk.ru>",
+  "license": "ISC",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^2.16.4",
+    "@graphql-codegen/typescript": "^2.8.7",
+    "@graphql-codegen/typescript-resolvers": "^2.7.12",
+    "@types/lodash": "^4.14.191",
+    "@types/lokijs": "^1.5.7",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.3.1",
+    "graphql": "^16.6.0",
+    "lodash": "^4.17.21",
+    "lokijs": "^1.5.12"
+  }
+}

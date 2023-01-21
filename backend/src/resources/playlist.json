@@ -1,0 +1,11 @@
+{
+    "id": "1",
+    "name": "Default playlist",
+    "media": [
+        "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+        "https://static3.depositphotos.com/1000575/154/i/600/depositphotos_1549339-stock-photo-lithuania-landscape-panorama.jpg",
+        "https://media.w3.org/2010/05/sintel/trailer.mp4",
+        "https://media.w3.org/2010/05/bunny/trailer.mp4",
+        "http://media.w3.org/2010/05/sintel/poster.png"
+    ]
+}
