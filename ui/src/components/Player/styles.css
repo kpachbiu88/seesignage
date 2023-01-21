@@ -1,0 +1,36 @@
+
+.player {
+    width: 580px;
+    margin: 0 auto;
+}
+  
+.player__frame {
+    width: 500px;
+    height: 338px;
+    padding: 40px 25px 25px 45px;
+    background: url('../../assets/tv.png') center center no-repeat;
+}
+
+.player__player {
+    width: 480px;
+    height: 268px;
+    background: #000;
+}
+
+.player__image {
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 270px;
+    background: #000;
+    overflow: hidden;
+}
+
+.player__image img {
+    width: 100%
+}
+
+.player__playlist-name {
+    text-align: center;
+}
+  

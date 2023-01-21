@@ -1,0 +1,24 @@
+.managment-item {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    padding: 5px 10px 5px 30px;
+    margin: 10px 0;
+    background: url('../../../assets/drag.svg') left center no-repeat;
+    background-size: 20px;
+}
+
+.managment-item__input {
+    flex-basis: 500px;
+    flex-grow: 1;
+    height: 35px;
+    padding: 0 10px;
+}
+
+.managment-item__delete {
+    width: 46px;
+    margin-left: 10px;
+    color: red;
+    line-height: 35px;
+    cursor: pointer;
+}

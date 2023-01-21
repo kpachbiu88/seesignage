@@ -1,0 +1,21 @@
+.managment-add-item {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    padding: 5px 10px 5px 30px;
+    margin: 10px 0;
+}
+
+.managment-add-item__input {
+    flex-grow: 1;
+    height: 35px;
+    padding: 0 10px;
+}
+
+.managment-add-item__add {
+    width: 46px;
+    margin-left: 10px;
+    color: blue;
+    line-height: 35px;
+    cursor: pointer;
+}
