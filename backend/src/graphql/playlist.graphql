@@ -5,16 +5,6 @@ type Playlist {
     media: [String]
 }
 
-#type Media {
-#    id: ID
-#    url: String
-#}
-
-#input MediaInput {
-#    id: ID
-#    url: String
-#}
-
 extend type Query {
     playlist: Playlist
 }
